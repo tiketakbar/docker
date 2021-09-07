@@ -34,9 +34,9 @@ ex :
 // stop container
 docker container stop  [containerName/containerId] [kalau mau multiple tinggal tambahin]
 ex : 
-- docker container start ca0385c0cbec
-- docker container start mongoserver1
-- docker container start mongoserver1 mongoserver2
+- docker container stop ca0385c0cbec
+- docker container stop mongoserver1
+- docker container stop mongoserver1 mongoserver2
 
 // remove container (pastikan container di stop dlu sebelum di hapus)
 docker container rm [containerName/containerId] [kalau mau multiple tinggal tambahin]
